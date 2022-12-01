@@ -119,23 +119,63 @@ export default function Page1() {
         </div>
 
 
-        <div style={{marginTop:400,
+        <div style={{width:450,
+           height:200,
+           marginLeft:800,
+           marginTop:-300,
+           zIndex:10,
+           boxShadow:'10 10 red',
+           padding:50,           
+           background:"#ffffff",
+           color:'#07455f'}}>
+            <p style={{fontSize:40}}>More Details</p>
+            <pre style={{fontSize:20, fontWeight:3000}}>
+              Warranty Info              +</pre>
+              <pre style={{fontSize:20, fontWeight:3000}}>
+              Warranty Info              +</pre>
+              <pre style={{fontSize:20, fontWeight:3000}}>
+              Warranty Info              +</pre>
+      
+        </div>
+
+        <div style={{width:'80%',
+        height:300,
+        marginTop:400,
+        marginLeft:'10%',
+        background:'#eaeff3',
+        borderRadius:20
+
+        }}>
+          <p style={{fontSize:30,
+          padding:50,
+          color:'#063e59'          
+          }}>
+            Need a better Look?<br/>
+          <p style={{fontSize:20}}>Visit our Experience Store
+          </p>
+          </p>
+          
+
+        </div>
+
+
+        <div style={{marginTop:100,
         alignItems:'center',
         textAlign:'center',
         width:320, }}>
-        <img style={{width:80,
+        <img style={{width:60,
             marginBottom:50}} src={box} alt="logo" />
         <div>
           <b>Free Shipping</b><br/>
           We deliver the product at your doorstep, at no extra charge.
         </div>   </div>
 
-        <div style={{marginTop:-200,
+        <div style={{marginTop:-185,
         marginLeft: '34%',
         alignItems:'center',
         textAlign:'center',
         width:320, }}>
-        <img style={{width:80,
+        <img style={{width:60,
             marginBottom:50}} src={install} alt="logo" />
         <div>
           <b>Hassle-free Installation</b><br/>
@@ -144,22 +184,26 @@ export default function Page1() {
         </div>   </div>
 
         
-        <div style={{marginTop:-200,
+        <div style={{marginTop:-170,
         marginLeft: '68%',
         alignItems:'center',
         textAlign:'center',
         width:320, }}>
-        <img style={{width:80,
+        <img style={{width:60,
             marginBottom:50}} src={install} alt="logo" />
         <div>
           <b>Hassle-free Installation</b><br/>
           We assemble the product and clear away the packaging
           , leaving you to enjoy the product.
         </div>   </div>
-
-
+        
 
        </div>
+
+
+
+
+
 
     )
 }
